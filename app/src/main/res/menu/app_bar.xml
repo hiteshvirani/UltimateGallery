@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/camara"
+        android:icon="@drawable/ic_camara"
+        android:orderInCategory="100"
+        android:title="Camara"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="101"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/sortby"
+                android:icon="@drawable/ic_short"
+                android:title="Sort by" />
+            <item
+                android:id="@+id/expandall"
+                android:icon="@drawable/ic_expand"
+                android:title="Expand all folders" />
+            <item
+                android:id="@+id/createal"
+                android:icon="@drawable/ic_create"
+                android:title="Create Album" />
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_setting"
+                android:title="Settings" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:orderInCategory="102"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu"
+        android:orderInCategory="103"
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/all"
+                android:title="All" />
+            <item
+                android:id="@+id/images"
+                android:title="Images" />
+            <item
+                android:id="@+id/video"
+                android:title="Video" />
+            <item
+                android:id="@+id/gifs"
+                android:title="GIFs" />
+        </menu>
+    </item>
+</menu>

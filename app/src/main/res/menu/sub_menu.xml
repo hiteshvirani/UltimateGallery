@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Filter"
+        android:id="@+id/filter"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/filter">
+
+        <menu>
+            <item android:id="@+id/sortby"
+                android:title="Sort by"
+                android:icon="@drawable/sort" />
+            <item android:id="@+id/expandall"
+                android:title="Expand all folders"
+                android:icon="@drawable/expand"/>
+            <item android:id="@+id/createal"
+                android:title="Create Album"
+                android:icon="@drawable/create"/>
+            <item android:id="@+id/setting"
+                android:title="Settings"
+                android:icon="@drawable/setting"/>
+
+
+
+
+        </menu>
+
+    </item>
+    <item android:title="Menu"
+        android:id="@+id/menu"
+        android:orderInCategory="103"
+        app:showAsAction="always"
+        android:icon="@drawable/menu">
+        <menu>
+            <item android:id="@+id/changepin"
+                android:icon="@drawable/changepin"
+                android:title="Change PIN"/>
+            <item android:id="@+id/share"
+                android:icon="@drawable/sharepng"
+                android:title="Share"/>
+
+
+
+        </menu>
+
+    </item>
+</menu>

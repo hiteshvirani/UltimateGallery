@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_picture"
+        android:title="Picture"
+        android:id="@+id/picture"/>
+    <item
+        android:icon="@drawable/ic_vault"
+        android:title="Vault"
+        android:id="@+id/vault"/>
+    <item
+        android:icon="@drawable/album_blue"
+        android:title="Album"
+        android:id="@+id/album"/>
+</menu>
